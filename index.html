@@ -1,32 +1,36 @@
-<anni></anni><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>滚动</title>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <style>
         html, body {
             position: relative;
             height: 100%;
         }
+
         body {
             background: #eee;
             font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
             font-size: 14px;
-            color:#000;
+            color: #000;
             margin: 0;
             padding: 0;
         }
+
         .swiper-container {
             width: 100%;
             height: 100%;
             margin-left: auto;
             margin-right: auto;
         }
+
         .swiper-slide {
-            text-align:center;
+            text-align: center;
             font-size: 18px;
             background: #fff;
 
@@ -44,124 +48,138 @@
             -webkit-align-items: center;
             align-items: center;
         }
-        .one{
-            background:#0099ff;
+
+        .one {
+            background: #0099ff;
 
         }
-         .two{
-            background:yellow;
+
+        .two {
+            background: yellow;
+            margin-top: -30px;
+            padding: 40px 0 0 0;
 
         }
-         .three{
-            background:#fff;
 
+        .three {
+            background: #fff;
+            margin-top: -30px;
+            padding: 40px 0;
         }
-        .three img{
-            width:150px;
-            height:150px;
-            margin-left:100px;
+
+        .three img {
+            width: 150px;
+            height: 150px;
+            margin-left: 100px;
         }
-        span{
-            font-size:50px;
-            color:#000;
+
+        span {
+            font-size: 50px;
+            color: #000;
             font-weight: 800;
         }
-        
-        .er{
-            height:100%;
-            width:100%;
-            text-align: center;
-            color: #A8a8 ;
-            padding-top:24px;
-            /*overflow-y:auto;*/
-            overflow-x:hidden;
-            overflow-y:scroll;
-            padding:70px 0;
-        }
-        .san{
-            height:100%;
-            width:100%;
-            padding-top:400px;
-            text-align: center;
-        }
-        .swiper-slide {
 
+        .er {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            /*padding-top:24px;*/
+            /*overflow-y:auto;*/
+            overflow-x: hidden;
+            overflow-y: scroll;
+            padding: 50px 0;
+        }
+
+        .san {
+
+            width: 100%;
+
+            text-align: center;
+        }
+
+        .swiper-slide {
             overflow: auto;
+            -webkit-overflow-scrolling : touch;
         }
     </style>
-
 </head>
 <body>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide one"><span>差评</span><br><br>这些东西大佬们肯定不想让你知道...</div>
-            <div class="swiper-slide two"><div class="er">半次到一百次一天一天去试<br>
-            靠勇气加斗志<br>
-            放弃太轻易<br>
-            沉迷还是幼稚<br>
-            根本不介意<br>
-            练到最后我知锻炼你的意义<br>
-            仿佛听到窃笑<br>
-            笑我只差半秒<br>
-            最尾却输掉<br>
-            明明全部气力<br>
-            一早消耗了<br>
-            用意志力抵消<br>
-            却又看出奥妙<br>
-            一副骨骼身躯<br>
-            一双酸软的腿<br>
-            用尽力气追下去<br>
-            一口清澈的水<br>
-            一些古训金句<br>
-            流入我 平复我 来让我战胜畏惧<br>
-            从高山深海欢欣悲哀走来<br>
-            途中的姿彩总躲不开，多障碍<br>
-            时空都更改<br>
-            只好抛开 等待<br>
-            应不应该<br>
-            精不精彩<br>
-            总结在我爱<br>
-            世界也许会变<br>
-            有结果方会要<br>
-            个个会跑会跳<br>
-            奋斗却省掉<br>
-            谁和谁在教量<br>
-            根本搞错了<br>
-            无法接受渺小<br>
-            却望老天照料<br>
-            一副骨骼身躯<br>
-            一双酸软的腿<br>
-            用尽力气追下去<br>
-            一口清澈的水<br>
-            一些古训金句<br>
-            流入我 平复我 来让我战胜畏惧<br>
-            从高山深海欢欣悲哀走来<br>
-            途中的姿彩总躲不开，多障碍<br>
-            时空都更改<br>
-            只好抛开 等待<br>
-            应不应该<br>
-            精不精彩<br>
-            总结在我爱<br>
-            无数次经<br>
-            一波一波的涌来<br>
-            谁可躲得开<br>
-            一点一点的意外<br>
-            时空都更改<br>
-            只好抛开 等待<br>
-            应不应该<br>
-            精不精彩<br>
-            总结在我爱</div></div>
-            <div class="swiper-slide three"><div class="san">完结撒花~<br><img src="image/ha.jpg"></div></div>
-           
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide one"><span>差评</span><br><br>这些东西大佬们肯定不想让你知道...</div>
+        <div class="swiper-slide two">
+            <div class="er ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">半次到一百次一天一天去试<br>
+                靠勇气加斗志<br>
+                放弃太轻易<br>
+                沉迷还是幼稚<br>
+                根本不介意<br>
+                练到最后我知锻炼你的意义<br>
+                仿佛听到窃笑<br>
+                笑我只差半秒<br>
+                最尾却输掉<br>
+                明明全部气力<br>
+                一早消耗了<br>
+                用意志力抵消<br>
+                却又看出奥妙<br>
+                一副骨骼身躯<br>
+                一双酸软的腿<br>
+                用尽力气追下去<br>
+                一口清澈的水<br>
+                一些古训金句<br>
+                流入我 平复我 来让我战胜畏惧<br>
+                从高山深海欢欣悲哀走来<br>
+                途中的姿彩总躲不开，多障碍<br>
+                时空都更改<br>
+                只好抛开 等待<br>
+                应不应该<br>
+                精不精彩<br>
+                总结在我爱<br>
+                世界也许会变<br>
+                有结果方会要<br>
+                个个会跑会跳<br>
+                奋斗却省掉<br>
+                谁和谁在教量<br>
+                根本搞错了<br>
+                无法接受渺小<br>
+                却望老天照料<br>
+                一副骨骼身躯<br>
+                一双酸软的腿<br>
+                用尽力气追下去<br>
+                一口清澈的水<br>
+                一些古训金句<br>
+                流入我 平复我 来让我战胜畏惧<br>
+                从高山深海欢欣悲哀走来<br>
+                途中的姿彩总躲不开，多障碍<br>
+                时空都更改<br>
+                只好抛开 等待<br>
+                应不应该<br>
+                精不精彩<br>
+                总结在我爱<br>
+                无数次经<br>
+                一波一波的涌来<br>
+                谁可躲得开<br>
+                一点一点的意外<br>
+                时空都更改<br>
+                只好抛开 等待<br>
+                应不应该<br>
+                精不精彩<br>
+                总结在我爱
+            </div>
         </div>
-        <!-- 添加分页 -->
-         <div class="swiper-pagination"></div>
+        <div class="swiper-slide three">
+            <div class="san">完结撒花~<br><img src="image/ha.jpg"></div>
+        </div>
+
     </div>
-    <script src="js/jquery-1.2.6.min.js"></script>
-    <script src="js/swiper.min.js"></script>
-    <!--<script src="js/index.js"></script>-->
+    <!-- 添加分页 -->
+    <div class="swiper-pagination"></div>
+</div>
+<script src="js/jquery-1.2.6.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/swiper.animate1.0.2.min.js"></script>
+<!--<script src="js/index.js"></script>-->
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
             direction: 'vertical',
@@ -169,8 +187,16 @@
             paginationClickable: true,
             spaceBetween: 30,
             autoHeight: true,
-            mousewheelControl: true
+            mousewheelControl: true,
+            onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+                swiperAnimateCache(swiper); //隐藏动画元素
+                swiperAnimate(swiper); //初始化完成开始动画
+            },
+            onSlideChangeEnd: function(swiper){
+                swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+            }
         });
+
         var startScroll, touchStart, touchCurrent;
         swiper.slides.on('touchstart', function (e) {
             startScroll = this.scrollTop;
@@ -181,14 +207,14 @@
             var touchesDiff = touchCurrent - touchStart;
             var slide = this;
             var onlyScrolling =
-                            // 只允许在滑动滚动
+                // 只允许在滑动滚动
                     ( slide.scrollHeight > slide.offsetHeight ) &&
                     (
-                            //从顶部到卷轴底部
+                        //从顶部到卷轴底部
                             ( touchesDiff < 0 && startScroll === 0 ) ||
-                            //从底部边缘开始滚动顶部
+                                //从底部边缘开始滚动顶部
                             ( touchesDiff > 0 && startScroll === ( slide.scrollHeight - slide.offsetHeight ) ) ||
-                            //从中间开始
+                                //从中间开始
                             ( startScroll > 0 && startScroll < ( slide.scrollHeight - slide.offsetHeight ) )
                     );
             if (onlyScrolling) {
